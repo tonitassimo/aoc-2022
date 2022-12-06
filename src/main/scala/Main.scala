@@ -1,5 +1,4 @@
-@main def hello: Unit = 
-  println("Hello world!")
-  println(msg)
+import puzzles.*
 
-def msg = "I was compiled by Scala 3! :)"
+@main def hello: Unit = 
+  println(solve())
