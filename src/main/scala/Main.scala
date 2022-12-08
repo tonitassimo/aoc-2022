@@ -1,4 +1,5 @@
 import puzzles.*
 
-@main def hello: Unit = 
-  println(solve())
+@main def main: Unit =
+  Day01.solveFirstPart()
+  Day01.solveSecondPart()

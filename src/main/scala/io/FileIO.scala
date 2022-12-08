@@ -2,7 +2,7 @@ package io
 
 import scala.io.Source
 
-class FileIO {
+object FileIO {
   def readResource(resource: String): String =
     Source.fromResource(resource).mkString
 
